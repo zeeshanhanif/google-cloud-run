@@ -14,7 +14,7 @@ app.use(function (req, res, next) {
 
 
 app.get('/', (req, res) => {
-  console.log('Hello world received a request.');
+  console.log('Hello world received a request. updated');
 
   const target = process.env.TARGET || 'World';
   res.send(`Hello ${target}!`);
