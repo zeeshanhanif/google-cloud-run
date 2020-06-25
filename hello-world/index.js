@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 app.get('/user', (req, res) => {
   console.log('/user received a request.');
 
-  res.json({name: "John", age: 45});
+  res.json({name: "John", age: 60});
 });
 
 const port = process.env.PORT || 8080;
